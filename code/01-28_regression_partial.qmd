@@ -264,8 +264,8 @@ ggplot(reg_dfw,
             ) +
   geom_ribbon(data = nd,
               aes(y = mod1_yield_mgha,
-                  ymin = mod1_int_lcl...3,
-                  ymax = mod1_int_ucl...4),
+                  ymin = mod1_int_lcl,
+                  ymax = mod1_int_ucl),
               fill = "gray",
               alpha = .5
               )
